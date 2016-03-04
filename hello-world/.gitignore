@@ -1,0 +1,36 @@
+# eclipse
+.classpath
+.project
+.metadata/
+.settings/
+Servers/
+
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Logs
+*.log
+*.log.*
+
+# TMPs
+*.tmp
+
+
+RemoteSystemsTempFiles/
+
+node_modules/
+bower_components/
+node/
+dist/
+.ssh/
+bin/
