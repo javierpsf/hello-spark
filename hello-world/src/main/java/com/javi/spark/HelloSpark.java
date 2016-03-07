@@ -47,7 +47,13 @@ public class HelloSpark {
             }
         });
 
-
+        get("/books", (request, response) -> {
+            String ids = "";
+            for (String id : books.keySet()) {
+                ids += id + " ";
+            }
+            return ids;
+        });
 		
 	}
 
